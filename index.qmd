@@ -1,0 +1,9 @@
+---
+title: ""
+pagetitle: "Projekt EDV-TEK"
+---
+
+# Projekt EDV-TEK
+
+![](assets/img/Foerderhinweis%20BMBF.jpg)
+![](assets/img/Foerderhinweis%20EU_horizontal.jpg)

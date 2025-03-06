@@ -1,0 +1,52 @@
+format:
+  revealjs: 
+    ## PLUGINS
+    theme: [../themes/tie_slides.scss, ../themes/tie_slides_logo.scss]
+    css: ../themes/tie_fonts.scss
+    highlight-style: ../themes/tie_code.theme
+    include-in-header:
+      - text: |
+          <link rel = "icon" type="image/svg" sizes="16x16" href = "https://raw.githubusercontent.com/christophihl/TIE_website/main/assets/images/icon.svg" type="image/svg+xml"/>
+    ## SimpleMenu
+    title-slide-attributes:
+        data-state: "hide-menubar"
+    # center: true
+    transition: slide
+    background-transition: fade
+    controls-layout: bottom-right
+    simplemenu:
+      barhtml:
+          header: "<div class='menubar'><ul class='menu'></ul><div>"
+      scale: 0.67
+    ## SLIDES
+    slide-number: c/t
+    ## SLIDE TOOLS
+    chalkboard: true
+    ## PLUGINS
+    revealjs-plugins:
+      - plugins/SimpleMenu
+      - plugins/ToggleDarkMode
+      - plugins/FullscreenButton
+    ## NAVIGATION
+    hide-inactive-cursor: true
+    controls: true
+    ## MEDIA
+    preview-links: auto
+    ## CODE
+    execute:
+      echo: true
+    code-block-bg: true
+    code-block-border-left: "#005e73"  
+    code-annotations: hover
+    df-print: tibble #paged
+    ## FAVICON
+    # include-in-header: [../../../img/favicon/TIE/favicon.html]
+    # resources: [../../../img/favicon/TIE/*,
+    #             ../../../img/logo/TIE/logo.svg]
+    ## RENDERING
+    from: markdown+emoji
+    ## OTHER
+    mainfont: "Poppins"
+    resources:
+      - slides/_images/
+      - assets/author_pic.jpg

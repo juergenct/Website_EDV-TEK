@@ -1,0 +1,4 @@
+/.quarto/
+
+# Ignore the following file types
+*.html

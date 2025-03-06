@@ -1,0 +1,77 @@
+project:
+  type: website
+  output-dir: _html
+  render:
+    - "*.qmd"
+execute:
+  freeze: auto # re-render only when source changes
+
+website:
+  title: "Projekt EDV-TEK"
+
+  site-url: https://github.com/juergenct/edv_tek
+  repo-url: https://github.com/juergenct/edv_tek
+  repo-actions: [issue]
+
+  page-navigation: true
+  reader-mode: false
+  search: true
+
+  favicon: assets/logo/logo_tie_kompakt.svg
+  description: Diese Website bildet den aktuellen Stand und die Ergebnisse des Projektes EDV-TEK ab.
+
+  navbar:
+    pinned: true
+    logo: "assets/logo/logo_tie.svg"
+    logo-alt: "TIE Logo"
+    logo-href: index.qmd
+    right:
+      - icon: envelope
+        href: "{{<var website.mail>}}"
+        aria-label: Drop us a Mail
+      - icon: github
+        menu:
+          - text: "TIE Profile"
+            url: "{{<var author.github>}}"
+          - text: "Source Code"
+            url: "{{<var website.github>}}"
+      # Icons can be found at https://icons.getbootstrap.com/
+
+  sidebar:
+    style: "docked"
+    contents: 
+      - index.qmd
+      - section: "Teil 1 - Identifikation von TEKs"
+        contents:
+          - 01_identifikation.qmd
+
+  page-footer:
+    left:
+      © {{< var website.c_year >}} by [{{< var author.name >}}]({{< var author.url >}})<br>
+      [Imprint](/imprint.qmd) | [Data Privacy](/privacy.qmd)
+    right:
+      Made with {{< var tech.quarto >}}<br>
+      View the source at [GitHub]({{< var website.github >}})
+    border: false
+    background: light
+
+bibliography: references.bib
+
+format:
+  html:
+    # theme: cosmo
+    theme:
+      light:
+        - "themes/tie_light.scss"
+      dark: 
+        - "themes/tie_dark.scss"
+    code-fold: false
+    toc: true
+    toc-depth: 2
+    toc-title: Contents
+    page-layout: full
+    grid:
+      sidebar-width: 400px
+      margin-width: 200px
+  # pdf:
+  #   documentclass: scrreprt

@@ -1,0 +1,21 @@
+version: 1.0
+
+author:
+  name: Institute of Entrepreneurship - Jürgen Thiesen
+  email: juergen.thiesen@tuhh.de
+  url: about.qmd
+  github: "https://github.com/juergenct"
+  profile_pic: "/assets/profile.jpeg"
+
+website:
+  c_year: "2024"
+  github: "https://github.com/juergenct/edv_tek"
+  mail: "mailto:juergen.thiesen@tuhh.de"
+
+tech:
+  jupyter: "[Jupyter](https://jupyter.org)"
+  quarto: "[Quarto](https://quarto.org/)"
+
+university:
+  name: Hamburg University of Technology
+  url: "https://www.tuhh.de/"

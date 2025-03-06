@@ -1,0 +1,19 @@
+---
+title: "About"
+pagetitle: "TIE - About"
+page-layout: full
+section-divs: false
+description: "About"
+toc: false
+sidebar: false
+search: false
+reader-mode: false
+---
+
+# About
+
+Hamburg University of Technology (TUHH)
+
+TUHH Institute for Entrepreneurship (W-11)
+
+Am Irrgarten 3 - 921073 Hamburg

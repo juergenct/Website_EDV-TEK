@@ -1,2 +1,2 @@
-# Projekt EDV-TEK Website Content
-Quarto Markdown Website for the Projekt EDV-TEK
+# Projekt EDV-TEK Website
+Quarto Markdown Website für das Projekt EDV-TEK.

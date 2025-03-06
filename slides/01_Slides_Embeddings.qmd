@@ -1,0 +1,30 @@
+---
+# TITLE & AUTHOR
+title: "Embeddings"
+subtitle: "Session 01 - Deep Learning for Social Analytics"
+author: "Christoph Ihl"
+institute: "Hamburg University of Technology"
+date: today
+date-format: "dddd, D. MMMM YYYY"
+# FORMAT OPTIONS
+format: 
+  revealjs:
+    width: 1600
+    height: 900
+    footer: "Deep Learning for Social Analytics: (1) Embeddings"
+    slide-number: true
+---
+
+# Course Overview {data-stack-name="Overview"}
+
+## Learning Goals
+
+::: {.nonincremental}
+- Understand the difference between "correlation” and “causation" 
+- Understand the shortcomings of current correlation-based approaches
+- Develop causal knowledge relevant for specific data-driven decisions
+- Formalize intuition about causal relationships using a "language" of causality
+- Derive causal hypotheses that can be tested with data
+- Discuss the conceptual ideas behind state-of-the-art causal data science tools and algorithms
+- Carry out causal data analyses with state-of-the-art tools
+:::
